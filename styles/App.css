@@ -1,0 +1,101 @@
+/* CSS for screens with a maximum width of 768rem */
+@media screen and (max-width: 768rem) {
+  html {
+    font-size: 45%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    /* Stack elements vertically on smaller screens */
+  }
+
+  .red-txt,
+  .normal-text,
+  .des,
+  .top-heading,
+  .top-sub-heading {
+    font-size: 14px;
+    /* Adjust font sizes for smaller screens */
+    line-height: 1.5;
+  }
+
+  .chakra-heading {
+    margin-top: 10px;
+    /* Adjust the margin as needed to separate the heading and description */
+  }
+
+  .header {
+    text-align: left;
+    /* Left-align header text on smaller screens */
+  }
+
+  .red-txt,
+  .normal-text,
+  .des,
+  .top-heading,
+  .top-sub-heading,
+  .most-popular,
+  .Best-value {
+    padding-left: 10rem;
+    /* Add padding adjustments */
+    margin: 10rem 0;
+    /* Add margin adjustments for spacing */
+  }
+
+  .most-popular,
+  .Best-value {
+    width: auto;
+    /* Allow the width to adjust based on content */
+    margin: 10rem 0;
+    /* Add margin adjustments for spacing */
+  }
+
+  .container img {
+    max-width: 100%;
+    /* Ensure images do not overflow their containers */
+  }
+
+  .nav {
+    display: block;
+  }
+}
+
+/* Additional media query for a specific screen size */
+@media screen and (max-width: 998rem) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Default CSS styles (for screens larger than the specified media queries) */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: initial !important;
+}
+
+.header {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  white-space: nowrap;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.normal-txt {
+  line-height: 30rem;
+}
+
+/* Other CSS styles for default screen sizes */
+/* ... (existing CSS styles) ... */

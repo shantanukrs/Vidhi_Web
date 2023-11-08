@@ -1,0 +1,54 @@
+/* Custom Slick Carousel styles */
+.slick-slider {
+    margin: 0 auto;
+    width: 90%;
+    /* Adjust the width as needed */
+}
+
+.slick-slide {
+    padding: 0 10px;
+    transition: transform 0.3s;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 20px;
+    color: #333;
+}
+
+.slick-dots {
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    background: #333;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.slick-dots li.slick-active button {
+    background: #f00;
+    /* Change the color of the active dot */
+}
+
+/* Custom Democard styles (Adjust as needed) */
+.democard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.democard a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Add additional styles for heading, text, and other elements within Democard if needed */
