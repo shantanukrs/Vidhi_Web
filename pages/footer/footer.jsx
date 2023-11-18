@@ -39,14 +39,14 @@ const Footer = ({ pdf }) => {
 
   return (
     <Box
-      px={{ base: 4, sm: 48 }}
-      py={{ base: 4, sm: 10 }}
+      px={{ base: 2, sm: 10 }}
+      py={{ base: 2, sm: 10 }}
       bg={colors.siteContentBg}
     >
       {windowWidth < 600 && (
-        <VStack w="100%" alignItems="flex-start" mb={4}>
+        <VStack w="50%" alignItems="flex-start" mb={4}>
           <Link href="/">Home</Link>
-          <Link href="/#about">About</Link>
+          <Link href="/about/about-accordion">About</Link>
           <Link href="/#features">Features</Link>
           <Link href="/PricingPolicy">Pricing</Link>
           <Link href="/#newsletter">Newsletter</Link>
@@ -56,9 +56,9 @@ const Footer = ({ pdf }) => {
         </VStack>
       )}
       <Divider mb={4} borderBottom={`1px solid ${colors.lightGray}`} />
-      <HStack justifyContent="space-between" alignItems="center">
+      <HStack justifyContent="space-between" alignItems="center" >
         <Link href="/">
-          <Logo extraStylesImg={{ width: 28 }} extraStylesText={{ fontSize: 15 }} />
+          <Logo extraStylesImg={{ width: 26 }} extraStylesText={{ fontSize: 15 }} />
         </Link>
 
         {windowWidth > 600 && (
@@ -68,7 +68,7 @@ const Footer = ({ pdf }) => {
                 Home
               </Box>
             </Link>
-            <Link href="/#about" passHref>
+            <Link href="/#about/about-accordion" passHref>
               <Box as="a" textDecoration="none" _hover={{ textDecoration: "underline" }} fontFamily="Rubik">
                 About
               </Box>
@@ -92,7 +92,7 @@ const Footer = ({ pdf }) => {
         )}
         <HStack>
           <Link href="https://www.youtube.com/channel/UCobQupYWcQk1UQL90fgqVIA" target="_blank">
-            <Icon as={AiFillYoutube} fontSize={25} cursor="pointer" />
+            <Icon as={AiFillYoutube} fontSize={32} cursor="pointer" />
           </Link>
           <Link href="https://twitter.com/vidhi_business" target="_blank">
             <Icon as={AiFillTwitterSquare} fontSize={25} cursor="pointer" />
@@ -142,7 +142,7 @@ const Footer = ({ pdf }) => {
       >
         <Flex alignItems="start">
           <Link href="https://www.google.co.in/maps/place/Divisha+Innovations/@12.9186381,77.6377992,15z/data=!4m5!3m4!1s0x0:0x83932ec1598e12c7!8m2!3d12.9186381!4d77.6377992">
-            <Icon as={BiMap} fontSize={15} mr={1} />
+            <Icon as={BiMap} fontSize={15} mr={3} mb={8} />
           </Link>
           <Text fontSize={12} textAlign="center">
             S3, #104, 13th main, 5th Sector, HSR layout, Bangalore - 560102 Karnataka, India |

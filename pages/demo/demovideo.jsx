@@ -4,7 +4,7 @@ import Democard from "./democard";
 import colors from "../../public/constants/colors/colors";
 import { useBreakpointValue } from "@chakra-ui/react";
 import Slider from "react-slick";
-import "../../styles/slick.css"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -76,7 +76,7 @@ const Demovideo = () => {
                 <Democard
                   text="Tamil"
                   link="https://www.youtube.com/watch?v=xjalD-NM_zU"
-                />
+                 />
                 <Democard text="Bengali" />
                 <Democard text="Gujarati" />
                 <Democard

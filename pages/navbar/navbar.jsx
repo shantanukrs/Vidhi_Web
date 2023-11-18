@@ -50,7 +50,7 @@ const NavBar = () => {
           </MenuButton>
           <MenuList minW="40%">
             <MenuItem>
-              <Link href="/#about">About</Link>
+              <Link href="/about/about-accordion">About</Link>
             </MenuItem>
             <MenuItem>
               <Link href="/#features">Feature</Link>
@@ -72,7 +72,7 @@ const NavBar = () => {
           justifyContent="space-between"
           w="40%"
         >
-          <Link href="/#about" passHref>
+          <Link href="/about/about-accordion" passHref>
             <Box
               as="a"
               textDecoration="none"

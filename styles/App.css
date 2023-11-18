@@ -2,6 +2,7 @@
 @media screen and (max-width: 768rem) {
   html {
     font-size: 45%;
+    overflow-x: hidden;
   }
 
   .container {

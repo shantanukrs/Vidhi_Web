@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Rubik", sans-serif;
@@ -19,6 +23,7 @@ code {
     font-size: 3vw;
     /* Adjust font size for smaller screens */
   }
+
 }
 
 /* Additional media queries and styles for other screen sizes can be added as needed */

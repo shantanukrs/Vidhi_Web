@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Button, useBreakpointValue } from "@chakra-ui/react";
 import colors from "../../public/constants/colors/colors";
 
 const PrimaryButton = ({ extraStyles, title, type }) => {

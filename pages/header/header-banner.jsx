@@ -60,18 +60,18 @@ const HeaderBanner = () => {
         margin="50px -85px 0px"
         order={{ base: 1, lg: 0 }}
       >
-        {<Box color={colors.darkGray} w="100%" textAlign="left">
+        {/* {<Box color={colors.darkGray} w="100%" textAlign="left">
           <Heading fontSize={{ base: "20px", sm: "24px", md: "28px", lg: "34px" }}>
             Business Efficiency
           </Heading>
           <Heading fontSize={{ base: "20px", sm: "24px", md: "28px", lg: "34px" }}>
             Management Solution
           </Heading>
-        </Box>}
+        </Box>} */}
         <Box color={colors.darkGray} w="100%" textAlign="left">
           <Heading
             fontStyle="normal"
-            fontWeight={700}
+            fontWeight={600}
             fontSize={{ base: "32px", md: "48px", lg: "64px" }}
             textTransform="capitalize"
             color="#262E41"
@@ -81,7 +81,7 @@ const HeaderBanner = () => {
           <Heading
 
             fontStyle="normal"
-            fontWeight={700}
+            fontWeight={600}
             fontSize={{ base: "32px", md: "48px", lg: "64px" }}
             textTransform="capitalize"
             color="#262E41"
@@ -107,10 +107,10 @@ const HeaderBanner = () => {
         <div style={{ marginTop: "30px" }}>
           <Text
             color={colors.lightGray}
-            fontSize={{ base: "20px", md: "25px", lg: "32px" }}
+            fontSize={{ base: "20px", md: "25px", lg: "30px" }}
             alignSelf="start"
             lineHeight="1.3"
-            marginLeft={{ base: 0, md: "-360px" }}
+            marginLeft={{ base: 0, md: "-300px" }}
           >
             Revolutionize the way you manage your <br />
             business operation & Employees <br />
@@ -134,7 +134,7 @@ const HeaderBanner = () => {
                   color: "#FFFFFF",
                   fontWeight: 500,
                   fontStyle: "normal",
-                  fontSize: "16px",
+                  fontSize: "12px",
                   marginTop: "2px",
                   display: "flex",
                   alignItems: "center",
@@ -156,8 +156,9 @@ const HeaderBanner = () => {
             variant="outline"
             width={{ base: "170px", md: "230px", lg: "300px" }}
             borderRadius={120}
+            fontSize={15}
             height={50}
-            ml={{ base: 0, md: 5 }}
+            ml={{ base: 10, md: 5 }}
           >
             Join Newsletter
           </Button>

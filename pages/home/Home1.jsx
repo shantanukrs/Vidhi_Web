@@ -19,7 +19,7 @@ function Home1() {
             <Features />
             <Testimonials />
             <Newfooter />
-            <AboutAccordion />
+            
         </>
     )
 }
